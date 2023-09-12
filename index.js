@@ -13,6 +13,6 @@ elementCurrentDay.textContent = getCurrentDayOfTheWeek();
 
 setInterval(() => {
     const currentDate = new Date();
-    const currentUTCTime = currentDate.getUTCMilliseconds();
+    const currentUTCTime = currentDate.getTime();
     elementCurrentUTCTime.textContent = currentUTCTime
 }, 1000);
